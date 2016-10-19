@@ -183,7 +183,7 @@ $(document).ready(function() {
 		$("#draw-btn,.draw-img").on("click", function() {
 			if(arr_a_flag) {
 
-				var arr_a = [5, 50, 100, '5y', '50y', '100y'];
+				var arr_a = [5, 50, 100];
 				var arr_a_a = arr_a[Math.floor(Math.random() * arr_a.length)]
 				$('.draw-list img').attr('src', 'images_1/' + arr_a_a + '.jpg')
 				$(".draw-mid").removeClass("draw-mid-move").css({
