@@ -18,7 +18,7 @@ $(document).ready(function() {
 
                 $('.move_line').css({
                     'width': mo_length,
-                    'left': mo_left,
+                    'left': mo_left
                 });
                 // $('.move_line').animate({
 
@@ -53,7 +53,7 @@ $(document).ready(function() {
                     $('.tagline').css('visibility', 'visible');
                 }
                 if (index == 4) {
-                    $('.section4_container').append('<div class="chart" data-percent="90" ><span>90</span><p>页面重构</p></div><div class="chart" data-percent="70" ><span>70</span><p>JavaScript</p></div><div class="chart" data-percent="90" ><span>90</span><p>jQuery</p></div><div class="chart" data-percent="70" ><span>70</span><p>HTML5</p></div><div class="chart" data-percent="70" ><span>70</span><p>CSS3</p></div><div class="chart" data-percent="60" ><span>60</span><p>node.js</p></div>')
+                    $('.section4_container').append('<div class="chart" data-percent="90" ><span>90</span><p>页面重构</p></div><div class="chart" data-percent="70" ><span>70</span><p>JavaScript</p></div><div class="chart" data-percent="90" ><span>90</span><p>jQuery</p></div><div class="chart" data-percent="70" ><span>70</span><p>HTML5</p></div><div class="chart" data-percent="70" ><span>70</span><p>CSS3</p></div><div class="chart" data-percent="75" ><span>75</span><p>node.js</p></div>')
                         // $('#myStat').circliful();
                     $('.chart').easyPieChart({
                         easing: 'easeOut',
@@ -169,16 +169,7 @@ $(document).ready(function() {
         }, 1000)
 
 
-        //swiper
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            slidesPerView: 1,
-            paginationClickable: true,
-            spaceBetween: 30,
-            loop: true
-        });
+
 
         $("#draw-btn,.draw-img").on("click", function() {
             if (arr_a_flag) {
